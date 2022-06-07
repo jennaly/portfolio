@@ -405,9 +405,10 @@
       display: flex;
       margin-left: 0.8em;
     }
-  
+
     .about {
-      align-items: flex-start;
+      align-items: center;
+      text-align: center;
       margin-top: 2em;
     }
   
