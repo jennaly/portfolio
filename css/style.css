@@ -370,6 +370,16 @@
     font-size: 1.8rem;
     transition: transform 0.2s ease-in-out;
   }
+
+  /*===================
+  project previews
+  ===================*/
+  .project-preview.ocsp-thumb {
+    margin-top: 2.9em;
+  }
+
+
+
   
   @media (max-width: 600px) {
     .header {
