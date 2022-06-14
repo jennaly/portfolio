@@ -378,9 +378,53 @@
     margin-top: 2.9em;
   }
 
+  /*===================
+  contact form
+  ===================*/
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2em;
+    margin: 0 auto;
+    text-transform: initial;
+    background-color: var(--clr-bg-alt);
+    border: 0;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s linear;
+  }
 
+  input,
+  textarea {
+    width: 100%;
+  }
 
-  
+  .name,
+  .email,
+  .subject,
+  .message,
+  .submit {
+    padding: 1rem;
+    border: 2px solid var(--clr-primary);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    margin: 1rem 0;
+  }
+
+  .input {
+    transition: all 0.2s ease-in-out;
+  }
+
+  .input:active,
+  .input:hover {
+    box-shadow: 0 5px 15px var(--clr-primary);
+  }
+
+  /*===================
+  media queries
+  ===================*/
+
   @media (max-width: 600px) {
     .header {
       height: 6em;
@@ -421,7 +465,15 @@
       text-align: center;
       margin-top: 2em;
     }
-  
+    #skills {
+      margin: 0 auto;
+      margin-top: 4em;
+    }
+
+    .projects__grid {
+      grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+    }
+
     .footer {
       padding: 2em;
       margin-top: 3em;
