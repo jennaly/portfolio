@@ -229,17 +229,23 @@
       <section class="section contact center" id="contact">
         <h2 class="section__title">Contact</h2>
         <form name="contact" method="POST" data-netlify="true">
-          <div class="name input">
-            <input type="text" name="name" placeholder="Name">
-          </div>
-          <div class="email input">
-            <input type="email" name="email" placeholder="Email">
-          </div>
-          <div class="subject input">
-            <input type="text" name="subject" placeholder="Subject">
-          </div>
-          <div class="message input">
-            <textarea name="message" placeholder="Message" rows="6"></textarea>
+          <div class="form-content">
+            <div class="form-col-1">
+              <div class="name input">
+                <input type="text" name="name" placeholder="Name">
+              </div>
+              <div class="email input">
+                <input type="email" name="email" placeholder="Email">
+              </div>
+              <div class="subject input">
+                <input type="text" name="subject" placeholder="Subject">
+              </div>
+            </div>
+            <div class="form-col-2">
+              <div class="message input">
+                <textarea name="message" placeholder="Message" rows="7"></textarea>
+              </div>
+            </div>
           </div>
 
           <button type="submit" class="submit btn btn--outline">send</button>

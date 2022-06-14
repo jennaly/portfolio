@@ -394,6 +394,25 @@
     transition: transform 0.2s linear;
   }
 
+  .form-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 1.2rem;
+  }
+
+  .form-col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%
+  }
+
+  .form-col-2 {
+    width: 48%;
+  }
+
   input,
   textarea {
     width: 100%;
@@ -408,8 +427,8 @@
     border: 2px solid var(--clr-primary);
     position: relative;
     overflow: hidden;
-    z-index: 1;
-    margin: 1rem 0;
+    /* z-index: 1; */
+    /* margin: 1rem 0; */
   }
 
   .input {
@@ -432,6 +451,26 @@
   
     .section {
       margin-top: 4em;
+    }
+
+    .form-col-1 {
+      width: 100%
+    }
+  
+    .form-col-2 {
+      width: 100%;
+    }
+
+    .form-content {
+      margin-bottom: 0;
+    }
+
+    .name,
+    .email,
+    .subject,
+    .message,
+    .submit {
+      margin: 0.5rem 0;
     }
   
     .nav__list {
