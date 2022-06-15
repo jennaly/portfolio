@@ -117,8 +117,8 @@
   .link::before {
     content: "";
     display: inline;
-    width: 0%;
-    height: 0.2em;
+    /* width: 0%;
+    height: 0.2em; */
     position: absolute;
     bottom: 0;
     background-color: var(--clr-primary);
@@ -406,11 +406,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 48%
+    width: 49%
   }
 
   .form-col-2 {
-    width: 48%;
+    width: 49%;
   }
 
   input,
