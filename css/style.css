@@ -226,6 +226,10 @@
   .flex__gap2 {
     gap: 2em;
   }
+
+  .flex__wrap {
+    flex-wrap: wrap;
+  }
   
   .header {
     height: 8em;
@@ -524,6 +528,15 @@
       text-align: center;
       margin-top: 2em;
     }
+
+    .bio_image {
+      width: 50%;
+    } 
+
+    .flex__gap2 {
+      gap: 2px;
+    }
+
     #skills {
       margin: 0 auto;
       margin-top: 4em;
